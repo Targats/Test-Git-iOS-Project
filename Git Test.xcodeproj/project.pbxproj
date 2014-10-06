@@ -21,6 +21,7 @@
 		FFA4727519E2337700B88902 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA4725719E2337700B88902 /* UIKit.framework */; };
 		FFA4727D19E2337700B88902 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFA4727B19E2337700B88902 /* InfoPlist.strings */; };
 		FFA4727F19E2337700B88902 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA4727E19E2337700B88902 /* Git_TestTests.m */; };
+		FFA4728A19E235E600B88902 /* DPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA4728919E235E600B88902 /* DPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FFA4727A19E2337700B88902 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FFA4727C19E2337700B88902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFA4727E19E2337700B88902 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FFA4728819E235E600B88902 /* DPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTest.h; sourceTree = "<group>"; };
+		FFA4728919E235E600B88902 /* DPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		FFA4724719E2337700B88902 = {
 			isa = PBXGroup;
 			children = (
+				FFA4728819E235E600B88902 /* DPTest.h */,
+				FFA4728919E235E600B88902 /* DPTest.m */,
 				FFA4725919E2337700B88902 /* Git Test */,
 				FFA4727819E2337700B88902 /* Git TestTests */,
 				FFA4725219E2337700B88902 /* Frameworks */,
@@ -253,6 +258,7 @@
 				FFA4726419E2337700B88902 /* DPAppDelegate.m in Sources */,
 				FFA4726A19E2337700B88902 /* DPViewController.m in Sources */,
 				FFA4726019E2337700B88902 /* main.m in Sources */,
+				FFA4728A19E235E600B88902 /* DPTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
